@@ -66,7 +66,7 @@ def score_lead(snippet, active):
     return score
 
 def scrape_google(keyword, pages=1):
-    api_key = "7260b89ba2b3386bbde38e4590ddb0a44891def7d7fc3d58cd9ec6c3ef2d532c"  # ← Ganti dengan API key kamu
+    api_key = "Your_API"  # ← Ganti dengan API key kamu
     results = []
 
     for page in range(pages):
